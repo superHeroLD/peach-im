@@ -28,6 +28,8 @@
         <fastjson.version>1.2.75</fastjson.version>
         <msgpack.version>0.6.12</msgpack.version>
 
+        <hutool.version>5.5.4</hutool.version>
+
         <!-- serialize -->
         <protostuff.version>1.7.2</protostuff.version>
         <kryo.version>5.0.1</kryo.version>
@@ -83,6 +85,13 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- utils -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool.version}</version>
         </dependency>
     </dependencies>
 
